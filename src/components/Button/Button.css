@@ -1,0 +1,33 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 24px;
+    background-color: #2E2F38;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-operator {
+    background-color: #4B5EFC;
+    color: white;
+}
+
+.btn-clear {
+    background-color: #4E505F;
+}
+
+.btn-zero {
+    grid-column: span 2;
+}
+
+.btn:hover {
+    background-color: #555;
+}
