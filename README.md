@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## FNM USE 16
+Please, use Fast Node Manager 16
+
 ## Available Scripts
 
 In the project directory, you can run:
